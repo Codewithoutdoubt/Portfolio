@@ -55,9 +55,11 @@ header h1 {
     margin-top: 4px;
     font-weight: 500
 }
-header .contact-details{
+
+header .contact-details {
     text-align: right;
 }
+
 header a {
     color: #fff;
     text-decoration: none;
@@ -165,16 +167,22 @@ button,
     .btn {
         display: none
     }
+
     * {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-    color-adjust: exact !important;
-  }
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+    :root{
+        background-color: white !important;
+    }
     #download,
     footer {
         display: none;
     }
-
+    html{
+        background-color: white;
+    }
     .container {
         box-shadow: none;
         margin: 0
@@ -214,33 +222,41 @@ footer {
     html {
         font-size: 5px;
     }
-    header{
+
+    header {
         padding: 20px;
         display: grid;
         grid-template-columns: 50% 45%;
     }
-    heading .role{
+
+    heading .role {
         font-size: 1.2rem;
     }
-    .pill{
+
+    .pill {
         padding: 1px 2px;
     }
+
     main {
         grid-template-columns: 110px 1fr;
     }
+
     aside {
         padding-top: 18px;
         margin: 0px;
     }
-    aside section{
+
+    aside section {
         padding: 8px 15px 0px 15px;
     }
+
     .email {
         display: block;
         grid-template-columns: 28% 83%;
         overflow-wrap: break-word;
     }
-    section{
+
+    section {
         margin-left: 3px;
         padding-left: 10px;
     }
