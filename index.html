@@ -1,90 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Deepak Vishwakarma — Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-<style>
-:root{
-  --accent:#0b66c3;
-  --muted:#444;
-  --bg:#f6f8fb;
-  --white:#fff;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Inter',sans-serif;background:var(--bg);color:#111;line-height:1.6;letter-spacing:0.1px}
-.container{max-width:1000px;margin:30px auto;background:var(--white);border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);overflow:hidden}
-header{background:var(--accent);color:#fff;padding:26px 38px;display:flex;justify-content:space-between;flex-wrap:wrap;align-items:center}
-header h1{font-size:30px;margin:0;font-weight:700;letter-spacing:0.4px}
-.role{font-size:15px;opacity:.95;margin-top:4px;font-weight:500}
-header a{color:#fff;text-decoration:none;font-size:14px;display:block;margin-top:2px;opacity:0.9}
-main{display:grid;grid-template-columns:300px 1fr;gap:0}
-@media(max-width:900px){main{grid-template-columns:1fr}}
-aside{background:#f9fbff;padding:26px;border-right:1px solid #e3e7ec}
-aside section{margin-bottom:24px}
-section{padding:26px}
-section article{margin-bottom:28px}
-h2{color:var(--accent);font-size:15px;margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
-ul{margin-left:16px;margin-bottom:8px}
-li{margin-bottom:5px;font-size:14px;color:#222}
-.pill{display:inline-block;background:#eaf3ff;color:var(--accent);padding:5px 10px;border-radius:999px;font-size:13px;font-weight:500;margin:3px 4px 0 0}
-.contact p{font-size:13.5px;margin-bottom:3px}
-button,.btn{background:var(--accent);color:#fff;border:none;padding:9px 14px;border-radius:8px;font-size:13px;cursor:pointer;text-decoration:none;display:inline-block;margin:3px 4px 0 0;font-weight:500}
-@media print{button,.btn{display:none}.container{box-shadow:none;margin:0}}
-footer{text-align:center;font-size:12px;color:var(--muted);padding:14px 10px;opacity:.8}
-</style>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepak Vishwakarma — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<div class="container">
-  <header>
-    <div>
-      <h1>Deepak Vishwakarma</h1>
-      <div class="role">Full-Stack Java Developer (Trainee)</div>
-      <div class="role" style="font-size:12.5px;opacity:.8">Spring Boot • Java • Frontend Integration • MySQL</div>
-    </div>
-    <div style="text-align:right">
-      <a href="mailto:deepakvishwakarma1503@gmail.com">deepakvishwakarma1503@gmail.com</a>
-      <a href="https://github.com/Codewithoutdoubt" target="_blank">github.com/Codewithoutdoubt</a>
-      <a href="https://www.linkedin.com/in/deepak-vishwakarma-2a34481a2" target="_blank">linkedin.com/in/deepak-vishwakarma-2a34481a2</a>
-      <a>📍 Damoh (M.P.), 470661</a>
-    </div>
-  </header>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Deepak Vishwakarma</h1>
+        <div class="role">Full-Stack Java Developer (Trainee)</div>
+        <div class="role">Spring Boot • Java • Frontend Integration • MySQL</div>
+      </div>
+      <div class="contact-details">
+        <a href="mailto:deepakvishwakarma1503@gmail.com">deepakvishwakarma1503@gmail.com</a>
+        <a href="https://github.com/Codewithoutdoubt" target="_blank">github.com/Codewithoutdoubt</a>
+        <a href="https://www.linkedin.com/in/deepak-vishwakarma-2a34481a2"
+          target="_blank">linkedin.com/in/deepak-vishwakarma-2a34481a2</a>
+        <a>📍 Damoh (M.P.), 470661</a>
+      </div>
+    </header>
 
-  <main>
-    <aside>
-      <section id="skills">
-        <h2>Technical Skills</h2>
-        <div>
-          <span class="pill">Java</span>
-          <span class="pill">Spring Boot</span>
-          <span class="pill">HTML</span>
-          <span class="pill">CSS</span>
-          <span class="pill">JavaScript</span>
-          <span class="pill">MySQL</span>
-          <span class="pill">Git</span>
-          <span class="pill">REST APIs</span>
-        </div>
-      </section>
+    <main>
+      <aside>
+        <section id="skills">
+          <h2>Technical Skills</h2>
+          <div>
+            <span class="pill">Java</span>
+            <span class="pill">Spring Boot</span>
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">MySQL</span>
+            <span class="pill">Git</span>
+            <span class="pill">REST APIs</span>
+          </div>
+        </section>
 
-      <section id="certs">
-        <h2>Certifications</h2>
-        <ul>
-          <li>Full-Stack Development — Technofern</li>
-          <li>Software Development Internship — Technofern</li>
-          <li>Basic Computer Training — Innovative Institute</li>
-        </ul>
-      </section>
+        <section id="soft">
+          <h2>Soft Skills</h2>
+          <ul>
+            <li>Problem Solving</li>
+            <li>Teamwork</li>
+            <li>Adaptability</li>
+            <li>Time Management</li>
+          </ul>
+        </section>
 
-      <section id="contact">
-        <h2>Contact</h2>
-        <div class="contact">
-          <p><strong>Email:</strong> deepakvishwakarma1503@gmail.com</p>
-          <p><strong>Phone:</strong> +91-7415403486</p>
-          <p><strong>Address:</strong> Damoh (M.P.), 470661</p>
-        </div>
+        <section id="certs">
+          <h2>Certifications</h2>
+          <ul>
+            <li>Full-Stack Development — Technofern</li>
+            <li>Software Development Internship — Technofern</li>
+            <li>Basic Computer Training — Innovative Institute</li>
+          </ul>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+          <div class="contact">
+            <p class="email"><strong>Email:</strong> deepakvishwakarma1503@gmail.com</p>
+            <p><strong>Phone:</strong> +91-7415403486</p>
+            <p><strong>Address:</strong> Damoh (M.P.), 470661</p>
+          </div>
+        </section>
+
+      </aside>
+
+      <section>
+        <article id="summary">
+          <h2>About Me</h2>
+          <p>Motivated full-stack Java developer with experience in backend design, responsive UI, and teamwork.
+            Completed 6-month Java training and 21-day internship at Technofern. Built a Student Management System for
+            academic record automation.</p>
+        </article>
+
+        <article id="experience">
+          <h2>Experience</h2>
+          <h3>Full-Stack Training — Technofern</h3>
+          <p><em>6 Months</em></p>
+          <ul>
+            <li>Trained in Java, Spring Boot, REST APIs, and deployment workflow.</li>
+            <li>Developed full-stack integrations and real-world project modules.</li>
+          </ul>
+
+          <h3>Internship — Technofern</h3>
+          <p><em>21 Days</em></p>
+          <ul>
+            <li>Assisted in testing, code improvement, and bug fixing.</li>
+          </ul>
+        </article>
+
+        <article id="projects">
+          <h2>Project</h2>
+          <h3>Student Management System</h3>
+          <ul>
+            <li>Developed for faculty to manage student records.</li>
+            <li>Stack: Java, Spring Boot, MySQL, HTML, CSS, JS.</li>
+            <li><a href="https://github.com/Codewithoutdoubt/SMS" target="_blank">GitHub: Codewithoutdoubt/SMS</a></li>
+          </ul>
+        </article>
+
+        <article id="education">
+          <h2>Education</h2>
+          <p><strong>Diploma, Computer Science And Engineering</strong><br>Govt. Polytechnic College, Damoh (RGPV) •
+            CGPA 8.15</p>
+          <p><strong>12th (Maths + Bio)</strong> — 80.8% • 2019</p>
+          <p><strong>10th</strong> — 85.7% • 2017</p>
+        </article>
       </section>
 
       <section id="download">
@@ -92,65 +120,11 @@ footer{text-align:center;font-size:12px;color:var(--muted);padding:14px 10px;opa
         <button onclick="window.print()">📄 Save as PDF</button>
         <button onclick="downloadTxt()">💾 .txt</button>
       </section>
-    </aside>
+    </main>
 
-    <section>
-      <article id="summary">
-        <h2>Summary</h2>
-        <p>Motivated full-stack Java developer with experience in backend design, responsive UI, and teamwork. Completed 6-month Java training and 21-day internship at Technofern. Built a Student Management System for academic record automation.</p>
-      </article>
+    <footer>© 2025 Deepak Vishwakarma — Clean Blue Resume (ATS Optimized)</footer>
+  </div>
 
-      <article id="experience">
-        <h2>Experience</h2>
-        <h3>Full-Stack Training — Technofern</h3>
-        <p><em>6 Months</em></p>
-        <ul>
-          <li>Trained in Java, Spring Boot, REST APIs, and deployment workflow.</li>
-          <li>Developed full-stack integrations and real-world project modules.</li>
-        </ul>
-
-        <h3>Internship — Technofern</h3>
-        <p><em>21 Days</em></p>
-        <ul>
-          <li>Assisted in testing, code improvement, and bug fixing.</li>
-        </ul>
-      </article>
-
-      <article id="projects">
-        <h2>Project</h2>
-        <h3>Student Management System</h3>
-        <ul>
-          <li>Developed for faculty to manage student records.</li>
-          <li>Stack: Java, Spring Boot, MySQL, HTML, CSS, JS.</li>
-          <li><a href="https://github.com/Codewithoutdoubt/SMS" target="_blank">GitHub: Codewithoutdoubt/SMS</a></li>
-        </ul>
-      </article>
-
-      <article id="education">
-        <h2>Education</h2>
-        <p><strong>Diploma, Computer Science And Engineering</strong><br>Govt. Polytechnic College, Damoh (RGPV) • CGPA 8.15</p>
-        <p><strong>12th (Maths + Bio)</strong> — 80.8% • 2019</p>
-        <p><strong>10th</strong> — 85.7% • 2017</p>
-      </article>
-
-      <article id="soft">
-        <h2>Soft Skills</h2>
-        <ul>
-          <li>Problem Solving</li>
-          <li>Teamwork</li>
-          <li>Adaptability</li>
-          <li>Time Management</li>
-        </ul>
-      </article>
-    </section>
-  </main>
-
-  <footer>© 2025 Deepak Vishwakarma — Clean Blue Resume (ATS Optimized)</footer>
-</div>
-
-<script>
-function buildTxt(){return`Deepak Vishwakarma\nFull-Stack Java Developer (Trainee)\nEmail: deepakvishwakarma1503@gmail.com\nPhone: +91-7415403486\nLinkedIn: linkedin.com/in/deepak-vishwakarma-2a34481a2\nGitHub: github.com/Codewithoutdoubt\nSummary: Full-stack Java developer trained in Spring Boot and MySQL.`}
-function downloadTxt(){const b=new Blob([buildTxt()],{type:'text/plain'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='Deepak_Vishwakarma_Resume.txt';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(u);}
-</script>
 </body>
+
 </html>
