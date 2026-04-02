@@ -95,6 +95,43 @@ h3 {
     font-size: 1.6rem;
 }
 
+/* Education Section Enhancement - ATS Friendly */
+.education-item {
+    background: #ffffff;
+    border-left: 4px solid var(--accent);
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+.edu-title {
+    font-size: 1.55rem;
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+}
+
+.edu-year {
+    font-size: 1.35rem;
+    color: #444;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.edu-institution {
+    font-size: 1.45rem;
+    color: #444;
+    margin: 0;
+    font-style: italic;
+}
+
 
 aside {
     background: #f9fbff;
